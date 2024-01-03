@@ -33,6 +33,7 @@ python manage.py createsuperuser
 
 - Criei 2 Django Apps, a primeira é a 'backendGraoDireto', com as configuraçoes do Django Framework, e a segunda é a 'api', com as informações de user e restaurants;
 - Herdei o model User do Django Framework para a criação de novos usuários, e utilizei uma flag booleana para indicar se é admin;
+- Sobre criptografia dos dados: https://docs.djangoproject.com/en/5.0/topics/auth/passwords/#how-django-stores-passwords
 
 # Rotas
 
